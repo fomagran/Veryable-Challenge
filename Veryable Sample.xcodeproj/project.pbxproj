@@ -34,6 +34,7 @@
 		041E2CC6294C33BE00A0D35A /* AccountDetailReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CC5294C33BE00A0D35A /* AccountDetailReactor.swift */; };
 		041E2CCA294C33FD00A0D35A /* AccountDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CC9294C33FD00A0D35A /* AccountDetailView.swift */; };
 		041E2CCC294C346200A0D35A /* AccountDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CCB294C346200A0D35A /* AccountDetailViewController.swift */; };
+		041E2CCF294C352600A0D35A /* AccountListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CCE294C352600A0D35A /* AccountListTests.swift */; };
 		0425E5B4294C1A8E00ECDCFD /* Veryable_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */; };
 		0425E5BF294C200F00ECDCFD /* AccountRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5BE294C200F00ECDCFD /* AccountRepository.swift */; };
 		0425E5C3294C220300ECDCFD /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5C2294C220300ECDCFD /* AccountService.swift */; };
@@ -87,6 +88,7 @@
 		041E2CC5294C33BE00A0D35A /* AccountDetailReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailReactor.swift; sourceTree = "<group>"; };
 		041E2CC9294C33FD00A0D35A /* AccountDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailView.swift; sourceTree = "<group>"; };
 		041E2CCB294C346200A0D35A /* AccountDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailViewController.swift; sourceTree = "<group>"; };
+		041E2CCE294C352600A0D35A /* AccountListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListTests.swift; sourceTree = "<group>"; };
 		0425E5B1294C1A8E00ECDCFD /* Veryable SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veryable SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veryable_SampleTests.swift; sourceTree = "<group>"; };
 		0425E5BE294C200F00ECDCFD /* AccountRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRepository.swift; sourceTree = "<group>"; };
@@ -302,9 +304,18 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		041E2CCD294C351300A0D35A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				041E2CCE294C352600A0D35A /* AccountListTests.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
 		0425E5B2294C1A8E00ECDCFD /* Veryable SampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				041E2CCD294C351300A0D35A /* Presentation */,
 				041E2CA2294C2DC900A0D35A /* Domain */,
 				041E2C88294C268000A0D35A /* Dummies */,
 				041E2C83294C262C00A0D35A /* Data */,
@@ -651,6 +662,7 @@
 				041E2C87294C266F00A0D35A /* MockAccountService.swift in Sources */,
 				041E2CA8294C2E1E00A0D35A /* AccountUseCaseTests.swift in Sources */,
 				041E2C8C294C26E800A0D35A /* AccountRepositoryTests.swift in Sources */,
+				041E2CCF294C352600A0D35A /* AccountListTests.swift in Sources */,
 				041E2C94294C285200A0D35A /* AccountServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
