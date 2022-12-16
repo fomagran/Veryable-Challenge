@@ -315,6 +315,14 @@
 			path = Presentation;
 			sourceTree = "<group>";
 		};
+		041E2CD2294C35C300A0D35A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				515EC6B2242E5FBA00B21DBB /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		0425E5B2294C1A8E00ECDCFD /* Veryable SampleTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -406,7 +414,7 @@
 		515EC6B1242E5FBA00B21DBB /* Veryable Sample */ = {
 			isa = PBXGroup;
 			children = (
-				515EC6B2242E5FBA00B21DBB /* AppDelegate.swift */,
+				041E2CD2294C35C300A0D35A /* Application */,
 				041E2CBD294C31A200A0D35A /* Common */,
 				041E2CAB294C2F2E00A0D35A /* Presentation */,
 				0425E5C0294C21C300ECDCFD /* Data */,
