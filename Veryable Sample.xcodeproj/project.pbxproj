@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0425E5B4294C1A8E00ECDCFD /* Veryable_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */; };
 		09F5497A5315486D756C4212 /* Pods_Veryable_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFCC6589E8234DDBAFB6174 /* Pods_Veryable_Sample.framework */; };
 		515EC6B3242E5FBA00B21DBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515EC6B2242E5FBA00B21DBB /* AppDelegate.swift */; };
 		515EC6BC242E5FBC00B21DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515EC6BB242E5FBC00B21DBB /* Assets.xcassets */; };
@@ -20,7 +21,19 @@
 		6A948B01265FF5CA005A22DA /* ViewColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948B00265FF5CA005A22DA /* ViewColor.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0425E5B5294C1A8E00ECDCFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 515EC6A7242E5FBA00B21DBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 515EC6AE242E5FBA00B21DBB;
+			remoteInfo = "Veryable Sample";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0425E5B1294C1A8E00ECDCFD /* Veryable SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veryable SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veryable_SampleTests.swift; sourceTree = "<group>"; };
 		0EB0BA61D6219763814275CA /* Pods-Veryable Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veryable Sample.debug.xcconfig"; path = "Target Support Files/Pods-Veryable Sample/Pods-Veryable Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		515EC6AF242E5FBA00B21DBB /* Veryable Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Veryable Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		515EC6B2242E5FBA00B21DBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +52,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0425E5AE294C1A8E00ECDCFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		515EC6AC242E5FBA00B21DBB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -50,10 +70,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0425E5B2294C1A8E00ECDCFD /* Veryable SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */,
+			);
+			path = "Veryable SampleTests";
+			sourceTree = "<group>";
+		};
 		515EC6A6242E5FBA00B21DBB = {
 			isa = PBXGroup;
 			children = (
 				515EC6B1242E5FBA00B21DBB /* Veryable Sample */,
+				0425E5B2294C1A8E00ECDCFD /* Veryable SampleTests */,
 				515EC6B0242E5FBA00B21DBB /* Products */,
 				5DE92AB3940F2422220C966C /* Pods */,
 				ACA3CF90B57F65B3BD61022F /* Frameworks */,
@@ -64,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				515EC6AF242E5FBA00B21DBB /* Veryable Sample.app */,
+				0425E5B1294C1A8E00ECDCFD /* Veryable SampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,6 +208,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0425E5B0294C1A8E00ECDCFD /* Veryable SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0425E5B9294C1A8E00ECDCFD /* Build configuration list for PBXNativeTarget "Veryable SampleTests" */;
+			buildPhases = (
+				0425E5AD294C1A8E00ECDCFD /* Sources */,
+				0425E5AE294C1A8E00ECDCFD /* Frameworks */,
+				0425E5AF294C1A8E00ECDCFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0425E5B6294C1A8E00ECDCFD /* PBXTargetDependency */,
+			);
+			name = "Veryable SampleTests";
+			productName = "Veryable SampleTests";
+			productReference = 0425E5B1294C1A8E00ECDCFD /* Veryable SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		515EC6AE242E5FBA00B21DBB /* Veryable Sample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 515EC6C6242E5FBC00B21DBB /* Build configuration list for PBXNativeTarget "Veryable Sample" */;
@@ -203,10 +251,14 @@
 		515EC6A7242E5FBA00B21DBB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
+				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Veryable Inc.";
 				TargetAttributes = {
+					0425E5B0294C1A8E00ECDCFD = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 515EC6AE242E5FBA00B21DBB;
+					};
 					515EC6AE242E5FBA00B21DBB = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -226,11 +278,19 @@
 			projectRoot = "";
 			targets = (
 				515EC6AE242E5FBA00B21DBB /* Veryable Sample */,
+				0425E5B0294C1A8E00ECDCFD /* Veryable SampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0425E5AF294C1A8E00ECDCFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		515EC6AD242E5FBA00B21DBB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,6 +344,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0425E5AD294C1A8E00ECDCFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0425E5B4294C1A8E00ECDCFD /* Veryable_SampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		515EC6AB242E5FBA00B21DBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,7 +370,55 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		0425E5B6294C1A8E00ECDCFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 515EC6AE242E5FBA00B21DBB /* Veryable Sample */;
+			targetProxy = 0425E5B5294C1A8E00ECDCFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		0425E5B7294C1A8E00ECDCFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fomagran.Veryable-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veryable Sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Veryable Sample";
+			};
+			name = Debug;
+		};
+		0425E5B8294C1A8E00ECDCFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fomagran.Veryable-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veryable Sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Veryable Sample";
+			};
+			name = Release;
+		};
 		515EC6C4242E5FBC00B21DBB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -462,6 +578,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0425E5B9294C1A8E00ECDCFD /* Build configuration list for PBXNativeTarget "Veryable SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0425E5B7294C1A8E00ECDCFD /* Debug */,
+				0425E5B8294C1A8E00ECDCFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		515EC6AA242E5FBA00B21DBB /* Build configuration list for PBXProject "Veryable Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
