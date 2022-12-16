@@ -1,16 +1,28 @@
 PODS:
+  - ReactorKit (3.2.0):
+    - RxSwift (~> 6.0)
+    - WeakMapTable (~> 1.1)
+  - RxSwift (6.5.0)
   - SnapKit (5.0.1)
+  - WeakMapTable (1.2.0)
 
 DEPENDENCIES:
+  - ReactorKit
   - SnapKit (~> 5.0.0)
 
 SPEC REPOS:
   trunk:
+    - ReactorKit
+    - RxSwift
     - SnapKit
+    - WeakMapTable
 
 SPEC CHECKSUMS:
+  ReactorKit: e8b11d6b9c415405f381669b095c154a05b59eca
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  WeakMapTable: 05c694ce8439a7a9ebabb56187287a63c57673d6
 
-PODFILE CHECKSUM: 46ecf8044b91d9e416c79110a7ac2f5aec44e0cf
+PODFILE CHECKSUM: 4d10807ccb4ac36467494e35d14e55d566220031
 
-COCOAPODS: 1.8.1
+COCOAPODS: 1.11.2

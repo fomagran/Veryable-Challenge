@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0425E5B4294C1A8E00ECDCFD /* Veryable_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */; };
+		0425E5BF294C200F00ECDCFD /* AccountRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5BE294C200F00ECDCFD /* AccountRepository.swift */; };
 		09F5497A5315486D756C4212 /* Pods_Veryable_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFCC6589E8234DDBAFB6174 /* Pods_Veryable_Sample.framework */; };
 		515EC6B3242E5FBA00B21DBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515EC6B2242E5FBA00B21DBB /* AppDelegate.swift */; };
 		515EC6BC242E5FBC00B21DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515EC6BB242E5FBC00B21DBB /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 		6A948AFB265FF403005A22DA /* VryPallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948AF6265FF403005A22DA /* VryPallete.swift */; };
 		6A948AFF265FF490005A22DA /* UIFont+Vry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948AFE265FF490005A22DA /* UIFont+Vry.swift */; };
 		6A948B01265FF5CA005A22DA /* ViewColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948B00265FF5CA005A22DA /* ViewColor.swift */; };
+		9AAD62964C56E43B034329D6 /* Pods_Veryable_SampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940621356DA2379913A5679B /* Pods_Veryable_SampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* Begin PBXFileReference section */
 		0425E5B1294C1A8E00ECDCFD /* Veryable SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veryable SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veryable_SampleTests.swift; sourceTree = "<group>"; };
+		0425E5BE294C200F00ECDCFD /* AccountRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRepository.swift; sourceTree = "<group>"; };
 		0EB0BA61D6219763814275CA /* Pods-Veryable Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veryable Sample.debug.xcconfig"; path = "Target Support Files/Pods-Veryable Sample/Pods-Veryable Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		515EC6AF242E5FBA00B21DBB /* Veryable Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Veryable Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		515EC6B2242E5FBA00B21DBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		6A948AF6265FF403005A22DA /* VryPallete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VryPallete.swift; sourceTree = "<group>"; };
 		6A948AFE265FF490005A22DA /* UIFont+Vry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Vry.swift"; sourceTree = "<group>"; };
 		6A948B00265FF5CA005A22DA /* ViewColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewColor.swift; sourceTree = "<group>"; };
+		884F94A70E4FAC3CA485DEB0 /* Pods-Veryable SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veryable SampleTests.debug.xcconfig"; path = "Target Support Files/Pods-Veryable SampleTests/Pods-Veryable SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		916B1DDC83303A79CAC63FF6 /* Pods-Veryable SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veryable SampleTests.release.xcconfig"; path = "Target Support Files/Pods-Veryable SampleTests/Pods-Veryable SampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		940621356DA2379913A5679B /* Pods_Veryable_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Veryable_SampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65FE61971F35C89FD901862 /* Pods-Veryable Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veryable Sample.release.xcconfig"; path = "Target Support Files/Pods-Veryable Sample/Pods-Veryable Sample.release.xcconfig"; sourceTree = "<group>"; };
 		CDFCC6589E8234DDBAFB6174 /* Pods_Veryable_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Veryable_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AAD62964C56E43B034329D6 /* Pods_Veryable_SampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,7 @@
 		0425E5BA294C1F5D00ECDCFD /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				0425E5BC294C1FF400ECDCFD /* Interfaces */,
 				0425E5BB294C1F6C00ECDCFD /* Entities */,
 			);
 			path = Domain;
@@ -92,6 +100,22 @@
 				6A948AED265FF0E5005A22DA /* Account.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		0425E5BC294C1FF400ECDCFD /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				0425E5BD294C1FFE00ECDCFD /* Repositories */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		0425E5BD294C1FFE00ECDCFD /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				0425E5BE294C200F00ECDCFD /* AccountRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 		515EC6A6242E5FBA00B21DBB = {
@@ -132,6 +156,8 @@
 			children = (
 				0EB0BA61D6219763814275CA /* Pods-Veryable Sample.debug.xcconfig */,
 				B65FE61971F35C89FD901862 /* Pods-Veryable Sample.release.xcconfig */,
+				884F94A70E4FAC3CA485DEB0 /* Pods-Veryable SampleTests.debug.xcconfig */,
+				916B1DDC83303A79CAC63FF6 /* Pods-Veryable SampleTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -209,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				CDFCC6589E8234DDBAFB6174 /* Pods_Veryable_Sample.framework */,
+				940621356DA2379913A5679B /* Pods_Veryable_SampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -220,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0425E5B9294C1A8E00ECDCFD /* Build configuration list for PBXNativeTarget "Veryable SampleTests" */;
 			buildPhases = (
+				AB4DDDB9B19B89490C6053CE /* [CP] Check Pods Manifest.lock */,
 				0425E5AD294C1A8E00ECDCFD /* Sources */,
 				0425E5AE294C1A8E00ECDCFD /* Frameworks */,
 				0425E5AF294C1A8E00ECDCFD /* Resources */,
@@ -327,6 +355,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Veryable Sample/Pods-Veryable Sample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AB4DDDB9B19B89490C6053CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Veryable SampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BC96BD4CF25FCB26B9FD0738 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,6 +417,7 @@
 				6A948AF8265FF403005A22DA /* VColor.swift in Sources */,
 				515EC6B3242E5FBA00B21DBB /* AppDelegate.swift in Sources */,
 				6A948AE5265FEFCB005A22DA /* AccountListViewController.swift in Sources */,
+				0425E5BF294C200F00ECDCFD /* AccountRepository.swift in Sources */,
 				6A948B01265FF5CA005A22DA /* ViewColor.swift in Sources */,
 				6A948AEE265FF0E5005A22DA /* Account.swift in Sources */,
 				6A948AFF265FF490005A22DA /* UIFont+Vry.swift in Sources */,
@@ -389,6 +440,7 @@
 /* Begin XCBuildConfiguration section */
 		0425E5B7294C1A8E00ECDCFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 884F94A70E4FAC3CA485DEB0 /* Pods-Veryable SampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -409,6 +461,7 @@
 		};
 		0425E5B8294C1A8E00ECDCFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 916B1DDC83303A79CAC63FF6 /* Pods-Veryable SampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

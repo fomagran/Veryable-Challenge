@@ -7,6 +7,7 @@ target 'Veryable Sample' do
 
   # Pods for Veryable Sample
   pod 'SnapKit', '~> 5.0.0'
+  pod 'ReactorKit'
   
   target 'Veryable SampleTests' do
      inherit! :search_paths
