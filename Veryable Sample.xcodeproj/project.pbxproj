@@ -33,6 +33,7 @@
 		041E2CC2294C32E200A0D35A /* AccountSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CC1294C32E200A0D35A /* AccountSectionHeaderView.swift */; };
 		041E2CC6294C33BE00A0D35A /* AccountDetailReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CC5294C33BE00A0D35A /* AccountDetailReactor.swift */; };
 		041E2CCA294C33FD00A0D35A /* AccountDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CC9294C33FD00A0D35A /* AccountDetailView.swift */; };
+		041E2CCC294C346200A0D35A /* AccountDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CCB294C346200A0D35A /* AccountDetailViewController.swift */; };
 		0425E5B4294C1A8E00ECDCFD /* Veryable_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */; };
 		0425E5BF294C200F00ECDCFD /* AccountRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5BE294C200F00ECDCFD /* AccountRepository.swift */; };
 		0425E5C3294C220300ECDCFD /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5C2294C220300ECDCFD /* AccountService.swift */; };
@@ -85,6 +86,7 @@
 		041E2CC1294C32E200A0D35A /* AccountSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSectionHeaderView.swift; sourceTree = "<group>"; };
 		041E2CC5294C33BE00A0D35A /* AccountDetailReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailReactor.swift; sourceTree = "<group>"; };
 		041E2CC9294C33FD00A0D35A /* AccountDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailView.swift; sourceTree = "<group>"; };
+		041E2CCB294C346200A0D35A /* AccountDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailViewController.swift; sourceTree = "<group>"; };
 		0425E5B1294C1A8E00ECDCFD /* Veryable SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veryable SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veryable_SampleTests.swift; sourceTree = "<group>"; };
 		0425E5BE294C200F00ECDCFD /* AccountRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRepository.swift; sourceTree = "<group>"; };
@@ -295,6 +297,7 @@
 			isa = PBXGroup;
 			children = (
 				041E2CC9294C33FD00A0D35A /* AccountDetailView.swift */,
+				041E2CCB294C346200A0D35A /* AccountDetailViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -671,6 +674,7 @@
 				041E2CB4294C2FB400A0D35A /* AlertType.swift in Sources */,
 				0425E5C3294C220300ECDCFD /* AccountService.swift in Sources */,
 				041E2CBA294C30D800A0D35A /* AccountReactor.swift in Sources */,
+				041E2CCC294C346200A0D35A /* AccountDetailViewController.swift in Sources */,
 				041E2C8E294C272F00A0D35A /* DefaultAccountRepository.swift in Sources */,
 				0425E5BF294C200F00ECDCFD /* AccountRepository.swift in Sources */,
 				041E2C79294C240A00A0D35A /* Network.swift in Sources */,
