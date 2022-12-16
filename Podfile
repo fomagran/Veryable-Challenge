@@ -9,6 +9,8 @@ target 'Veryable Sample' do
   pod 'SnapKit', '~> 5.0.0'
   pod 'ReactorKit'
   pod 'Alamofire'
+  pod 'RxCocoa', '6.5.0'
+  pod 'RxDataSources', '~> 5.0'
   
   target 'Veryable SampleTests' do
      inherit! :search_paths
