@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		041E2C79294C240A00A0D35A /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2C78294C240A00A0D35A /* Network.swift */; };
 		041E2C7B294C247F00A0D35A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2C7A294C247F00A0D35A /* Constants.swift */; };
+		041E2C7F294C250900A0D35A /* DefaultAccountRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2C7E294C250900A0D35A /* DefaultAccountRequest.swift */; };
 		0425E5B4294C1A8E00ECDCFD /* Veryable_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */; };
 		0425E5BF294C200F00ECDCFD /* AccountRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5BE294C200F00ECDCFD /* AccountRepository.swift */; };
 		0425E5C3294C220300ECDCFD /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5C2294C220300ECDCFD /* AccountService.swift */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		041E2C78294C240A00A0D35A /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		041E2C7A294C247F00A0D35A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		041E2C7E294C250900A0D35A /* DefaultAccountRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAccountRequest.swift; sourceTree = "<group>"; };
 		0425E5B1294C1A8E00ECDCFD /* Veryable SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veryable SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veryable_SampleTests.swift; sourceTree = "<group>"; };
 		0425E5BE294C200F00ECDCFD /* AccountRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRepository.swift; sourceTree = "<group>"; };
@@ -81,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041E2C7C294C24EF00A0D35A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0425E5C2294C220300ECDCFD /* AccountService.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		0425E5B2294C1A8E00ECDCFD /* Veryable SampleTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,9 +143,10 @@
 		0425E5C1294C21CB00ECDCFD /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				0425E5C2294C220300ECDCFD /* AccountService.swift */,
+				041E2C7C294C24EF00A0D35A /* Protocol */,
 				041E2C78294C240A00A0D35A /* Network.swift */,
 				041E2C7A294C247F00A0D35A /* Constants.swift */,
+				041E2C7E294C250900A0D35A /* DefaultAccountRequest.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -430,6 +441,7 @@
 			files = (
 				6A948AF8265FF403005A22DA /* VColor.swift in Sources */,
 				515EC6B3242E5FBA00B21DBB /* AppDelegate.swift in Sources */,
+				041E2C7F294C250900A0D35A /* DefaultAccountRequest.swift in Sources */,
 				6A948AE5265FEFCB005A22DA /* AccountListViewController.swift in Sources */,
 				0425E5C3294C220300ECDCFD /* AccountService.swift in Sources */,
 				0425E5BF294C200F00ECDCFD /* AccountRepository.swift in Sources */,
