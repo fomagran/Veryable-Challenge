@@ -14,7 +14,6 @@
 		515EC6BC242E5FBC00B21DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515EC6BB242E5FBC00B21DBB /* Assets.xcassets */; };
 		6A948AE5265FEFCB005A22DA /* AccountListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948AE4265FEFCB005A22DA /* AccountListViewController.swift */; };
 		6A948AE7265FEFDB005A22DA /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948AE6265FEFDA005A22DA /* AccountListView.swift */; };
-		6A948AEC265FF0A2005A22DA /* AccountRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948AEB265FF0A2005A22DA /* AccountRepo.swift */; };
 		6A948AEE265FF0E5005A22DA /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948AED265FF0E5005A22DA /* Account.swift */; };
 		6A948AF8265FF403005A22DA /* VColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948AF3265FF403005A22DA /* VColor.swift */; };
 		6A948AFB265FF403005A22DA /* VryPallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948AF6265FF403005A22DA /* VryPallete.swift */; };
@@ -44,7 +43,6 @@
 		515EC6C3242E5FBC00B21DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A948AE4265FEFCB005A22DA /* AccountListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListViewController.swift; sourceTree = "<group>"; };
 		6A948AE6265FEFDA005A22DA /* AccountListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListView.swift; sourceTree = "<group>"; };
-		6A948AEB265FF0A2005A22DA /* AccountRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRepo.swift; sourceTree = "<group>"; };
 		6A948AED265FF0E5005A22DA /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		6A948AF3265FF403005A22DA /* VColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VColor.swift; sourceTree = "<group>"; };
 		6A948AF6265FF403005A22DA /* VryPallete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VryPallete.swift; sourceTree = "<group>"; };
@@ -144,7 +142,6 @@
 				0425E5BA294C1F5D00ECDCFD /* Domain */,
 				515EC6B2242E5FBA00B21DBB /* AppDelegate.swift */,
 				6A948ADF265FEEA0005A22DA /* Features */,
-				6A948AE9265FEFEF005A22DA /* Repositories */,
 				6A948AFC265FF473005A22DA /* VryCustom */,
 				6A948AEA265FF01C005A22DA /* Resources */,
 			);
@@ -185,14 +182,6 @@
 				6A948AE6265FEFDA005A22DA /* AccountListView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		6A948AE9265FEFEF005A22DA /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-				6A948AEB265FF0A2005A22DA /* AccountRepo.swift */,
-			);
-			path = Repositories;
 			sourceTree = "<group>";
 		};
 		6A948AEA265FF01C005A22DA /* Resources */ = {
@@ -422,7 +411,6 @@
 				6A948AEE265FF0E5005A22DA /* Account.swift in Sources */,
 				6A948AFF265FF490005A22DA /* UIFont+Vry.swift in Sources */,
 				6A948AE7265FEFDB005A22DA /* AccountListView.swift in Sources */,
-				6A948AEC265FF0A2005A22DA /* AccountRepo.swift in Sources */,
 				6A948AFB265FF403005A22DA /* VryPallete.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
