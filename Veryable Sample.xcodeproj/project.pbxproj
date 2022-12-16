@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041E2C79294C240A00A0D35A /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2C78294C240A00A0D35A /* Network.swift */; };
 		0425E5B4294C1A8E00ECDCFD /* Veryable_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */; };
 		0425E5BF294C200F00ECDCFD /* AccountRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5BE294C200F00ECDCFD /* AccountRepository.swift */; };
 		0425E5C3294C220300ECDCFD /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5C2294C220300ECDCFD /* AccountService.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041E2C78294C240A00A0D35A /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		0425E5B1294C1A8E00ECDCFD /* Veryable SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veryable SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veryable_SampleTests.swift; sourceTree = "<group>"; };
 		0425E5BE294C200F00ECDCFD /* AccountRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRepository.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				0425E5C2294C220300ECDCFD /* AccountService.swift */,
+				041E2C78294C240A00A0D35A /* Network.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				6A948AE5265FEFCB005A22DA /* AccountListViewController.swift in Sources */,
 				0425E5C3294C220300ECDCFD /* AccountService.swift in Sources */,
 				0425E5BF294C200F00ECDCFD /* AccountRepository.swift in Sources */,
+				041E2C79294C240A00A0D35A /* Network.swift in Sources */,
 				6A948B01265FF5CA005A22DA /* ViewColor.swift in Sources */,
 				6A948AEE265FF0E5005A22DA /* Account.swift in Sources */,
 				6A948AFF265FF490005A22DA /* UIFont+Vry.swift in Sources */,
