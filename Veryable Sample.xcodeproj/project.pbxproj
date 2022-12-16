@@ -27,6 +27,7 @@
 		041E2CB2294C2F9600A0D35A /* AccountType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CB1294C2F9600A0D35A /* AccountType.swift */; };
 		041E2CB4294C2FB400A0D35A /* AlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CB3294C2FB400A0D35A /* AlertType.swift */; };
 		041E2CB8294C303D00A0D35A /* AccountListReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CB7294C303D00A0D35A /* AccountListReactor.swift */; };
+		041E2CBA294C30D800A0D35A /* AccountReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CB9294C30D800A0D35A /* AccountReactor.swift */; };
 		0425E5B4294C1A8E00ECDCFD /* Veryable_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */; };
 		0425E5BF294C200F00ECDCFD /* AccountRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5BE294C200F00ECDCFD /* AccountRepository.swift */; };
 		0425E5C3294C220300ECDCFD /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5C2294C220300ECDCFD /* AccountService.swift */; };
@@ -74,6 +75,7 @@
 		041E2CB1294C2F9600A0D35A /* AccountType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountType.swift; sourceTree = "<group>"; };
 		041E2CB3294C2FB400A0D35A /* AlertType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertType.swift; sourceTree = "<group>"; };
 		041E2CB7294C303D00A0D35A /* AccountListReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListReactor.swift; sourceTree = "<group>"; };
+		041E2CB9294C30D800A0D35A /* AccountReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountReactor.swift; sourceTree = "<group>"; };
 		0425E5B1294C1A8E00ECDCFD /* Veryable SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veryable SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veryable_SampleTests.swift; sourceTree = "<group>"; };
 		0425E5BE294C200F00ECDCFD /* AccountRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRepository.swift; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				041E2CB7294C303D00A0D35A /* AccountListReactor.swift */,
+				041E2CB9294C30D800A0D35A /* AccountReactor.swift */,
 			);
 			path = Reactors;
 			sourceTree = "<group>";
@@ -621,6 +624,7 @@
 				041E2C9F294C2D7800A0D35A /* AccountUseCase.swift in Sources */,
 				041E2CB4294C2FB400A0D35A /* AlertType.swift in Sources */,
 				0425E5C3294C220300ECDCFD /* AccountService.swift in Sources */,
+				041E2CBA294C30D800A0D35A /* AccountReactor.swift in Sources */,
 				041E2C8E294C272F00A0D35A /* DefaultAccountRepository.swift in Sources */,
 				0425E5BF294C200F00ECDCFD /* AccountRepository.swift in Sources */,
 				041E2C79294C240A00A0D35A /* Network.swift in Sources */,
