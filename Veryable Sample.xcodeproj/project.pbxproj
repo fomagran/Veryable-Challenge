@@ -26,6 +26,7 @@
 		041E2CB0294C2F7600A0D35A /* ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CAF294C2F7600A0D35A /* ImageName.swift */; };
 		041E2CB2294C2F9600A0D35A /* AccountType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CB1294C2F9600A0D35A /* AccountType.swift */; };
 		041E2CB4294C2FB400A0D35A /* AlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CB3294C2FB400A0D35A /* AlertType.swift */; };
+		041E2CB8294C303D00A0D35A /* AccountListReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CB7294C303D00A0D35A /* AccountListReactor.swift */; };
 		0425E5B4294C1A8E00ECDCFD /* Veryable_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */; };
 		0425E5BF294C200F00ECDCFD /* AccountRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5BE294C200F00ECDCFD /* AccountRepository.swift */; };
 		0425E5C3294C220300ECDCFD /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5C2294C220300ECDCFD /* AccountService.swift */; };
@@ -72,6 +73,7 @@
 		041E2CAF294C2F7600A0D35A /* ImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageName.swift; sourceTree = "<group>"; };
 		041E2CB1294C2F9600A0D35A /* AccountType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountType.swift; sourceTree = "<group>"; };
 		041E2CB3294C2FB400A0D35A /* AlertType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertType.swift; sourceTree = "<group>"; };
+		041E2CB7294C303D00A0D35A /* AccountListReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListReactor.swift; sourceTree = "<group>"; };
 		0425E5B1294C1A8E00ECDCFD /* Veryable SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veryable SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veryable_SampleTests.swift; sourceTree = "<group>"; };
 		0425E5BE294C200F00ECDCFD /* AccountRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRepository.swift; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 		041E2CAB294C2F2E00A0D35A /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				6A948AE0265FEEB7005A22DA /* AccountList */,
 				041E2CAC294C2F3500A0D35A /* Enums */,
 			);
 			path = Presentation;
@@ -241,6 +244,14 @@
 				041E2CB3294C2FB400A0D35A /* AlertType.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		041E2CB6294C302E00A0D35A /* Reactors */ = {
+			isa = PBXGroup;
+			children = (
+				041E2CB7294C303D00A0D35A /* AccountListReactor.swift */,
+			);
+			path = Reactors;
 			sourceTree = "<group>";
 		};
 		0425E5B2294C1A8E00ECDCFD /* Veryable SampleTests */ = {
@@ -337,7 +348,6 @@
 				0425E5C0294C21C300ECDCFD /* Data */,
 				0425E5BA294C1F5D00ECDCFD /* Domain */,
 				515EC6B2242E5FBA00B21DBB /* AppDelegate.swift */,
-				6A948ADF265FEEA0005A22DA /* Features */,
 				6A948AFC265FF473005A22DA /* VryCustom */,
 				6A948AEA265FF01C005A22DA /* Resources */,
 			);
@@ -355,17 +365,10 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		6A948ADF265FEEA0005A22DA /* Features */ = {
-			isa = PBXGroup;
-			children = (
-				6A948AE0265FEEB7005A22DA /* AccountList */,
-			);
-			path = Features;
-			sourceTree = "<group>";
-		};
 		6A948AE0265FEEB7005A22DA /* AccountList */ = {
 			isa = PBXGroup;
 			children = (
+				041E2CB6294C302E00A0D35A /* Reactors */,
 				6A948AE4265FEFCB005A22DA /* AccountListViewController.swift */,
 				6A948AE1265FEFB0005A22DA /* View */,
 			);
@@ -627,6 +630,7 @@
 				6A948AE7265FEFDB005A22DA /* AccountListView.swift in Sources */,
 				6A948AFB265FF403005A22DA /* VryPallete.swift in Sources */,
 				041E2C7B294C247F00A0D35A /* Constants.swift in Sources */,
+				041E2CB8294C303D00A0D35A /* AccountListReactor.swift in Sources */,
 				041E2CAA294C2EB900A0D35A /* AccountList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
