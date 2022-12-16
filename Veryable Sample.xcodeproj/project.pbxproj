@@ -13,6 +13,8 @@
 		041E2C81294C256200A0D35A /* DefaultAccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2C80294C256200A0D35A /* DefaultAccountService.swift */; };
 		041E2C87294C266F00A0D35A /* MockAccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2C86294C266F00A0D35A /* MockAccountService.swift */; };
 		041E2C8A294C269500A0D35A /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2C89294C269500A0D35A /* DummyData.swift */; };
+		041E2C8C294C26E800A0D35A /* AccountRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2C8B294C26E800A0D35A /* AccountRepositoryTests.swift */; };
+		041E2C8E294C272F00A0D35A /* DefaultAccountRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2C8D294C272F00A0D35A /* DefaultAccountRepository.swift */; };
 		0425E5B4294C1A8E00ECDCFD /* Veryable_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */; };
 		0425E5BF294C200F00ECDCFD /* AccountRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5BE294C200F00ECDCFD /* AccountRepository.swift */; };
 		0425E5C3294C220300ECDCFD /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5C2294C220300ECDCFD /* AccountService.swift */; };
@@ -46,6 +48,8 @@
 		041E2C80294C256200A0D35A /* DefaultAccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAccountService.swift; sourceTree = "<group>"; };
 		041E2C86294C266F00A0D35A /* MockAccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAccountService.swift; sourceTree = "<group>"; };
 		041E2C89294C269500A0D35A /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		041E2C8B294C26E800A0D35A /* AccountRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRepositoryTests.swift; sourceTree = "<group>"; };
+		041E2C8D294C272F00A0D35A /* DefaultAccountRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAccountRepository.swift; sourceTree = "<group>"; };
 		0425E5B1294C1A8E00ECDCFD /* Veryable SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veryable SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veryable_SampleTests.swift; sourceTree = "<group>"; };
 		0425E5BE294C200F00ECDCFD /* AccountRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRepository.swift; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 		041E2C82294C260C00A0D35A /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				041E2C8D294C272F00A0D35A /* DefaultAccountRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -116,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				041E2C85294C265C00A0D35A /* Mocks */,
+				041E2C8B294C26E800A0D35A /* AccountRepositoryTests.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -483,6 +489,7 @@
 				041E2C8A294C269500A0D35A /* DummyData.swift in Sources */,
 				0425E5B4294C1A8E00ECDCFD /* Veryable_SampleTests.swift in Sources */,
 				041E2C87294C266F00A0D35A /* MockAccountService.swift in Sources */,
+				041E2C8C294C26E800A0D35A /* AccountRepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +503,7 @@
 				041E2C81294C256200A0D35A /* DefaultAccountService.swift in Sources */,
 				6A948AE5265FEFCB005A22DA /* AccountListViewController.swift in Sources */,
 				0425E5C3294C220300ECDCFD /* AccountService.swift in Sources */,
+				041E2C8E294C272F00A0D35A /* DefaultAccountRepository.swift in Sources */,
 				0425E5BF294C200F00ECDCFD /* AccountRepository.swift in Sources */,
 				041E2C79294C240A00A0D35A /* Network.swift in Sources */,
 				6A948B01265FF5CA005A22DA /* ViewColor.swift in Sources */,
