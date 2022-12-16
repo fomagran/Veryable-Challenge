@@ -10,13 +10,13 @@
 
 ## Clean Architecture
 
-Clean architecture is a software design philosophy that separates the elements of a design into ring levels.
+> Clean architecture is a software design philosophy that separates the elements of a design into ring levels.
 
 <img width="800" alt="스크린샷 2022-12-16 오전 12 32 22" src="https://user-images.githubusercontent.com/47676921/208038648-adfb7ea9-8e56-4442-931e-32b27f0dcafd.png">
 
 ## ReactorKit
 
-ReactorKit is a combination of Flux and Reactive Programming. The user actions and the view states are delivered to each layer via observable streams. These streams are unidirectional: the view can only emit actions and the reactor can only emit states.
+> ReactorKit is a combination of Flux and Reactive Programming. The user actions and the view states are delivered to each layer via observable streams. These streams are unidirectional: the view can only emit actions and the reactor can only emit states.
 
 <img width="800" alt="스크린샷 2022-12-16 오전 12 32 22" src="https://user-images.githubusercontent.com/47676921/208038465-5e9ac5f3-a71a-473e-9bbe-cb06be984ef2.png">
 
