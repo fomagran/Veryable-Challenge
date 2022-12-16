@@ -78,6 +78,22 @@
 			path = "Veryable SampleTests";
 			sourceTree = "<group>";
 		};
+		0425E5BA294C1F5D00ECDCFD /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				0425E5BB294C1F6C00ECDCFD /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		0425E5BB294C1F6C00ECDCFD /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				6A948AED265FF0E5005A22DA /* Account.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		515EC6A6242E5FBA00B21DBB = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +117,10 @@
 		515EC6B1242E5FBA00B21DBB /* Veryable Sample */ = {
 			isa = PBXGroup;
 			children = (
+				0425E5BA294C1F5D00ECDCFD /* Domain */,
 				515EC6B2242E5FBA00B21DBB /* AppDelegate.swift */,
 				6A948ADF265FEEA0005A22DA /* Features */,
 				6A948AE9265FEFEF005A22DA /* Repositories */,
-				6A948AE8265FEFE2005A22DA /* Models */,
 				6A948AFC265FF473005A22DA /* VryCustom */,
 				6A948AEA265FF01C005A22DA /* Resources */,
 			);
@@ -143,14 +159,6 @@
 				6A948AE6265FEFDA005A22DA /* AccountListView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		6A948AE8265FEFE2005A22DA /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				6A948AED265FF0E5005A22DA /* Account.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		6A948AE9265FEFEF005A22DA /* Repositories */ = {
