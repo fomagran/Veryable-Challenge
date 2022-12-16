@@ -1,5 +1,7 @@
 # Veryable Challenge
 
+![Simulator Screen Recording - iPhone 14 Pro - 2022-12-16 at 00 40 53](https://user-images.githubusercontent.com/47676921/208039441-31ba659e-1cfd-472f-aa81-84c223c62c17.gif)
+
 # Architecture
 
 > Clean Architecture + ReactorKit (MVVM + RxSwift)
@@ -17,10 +19,6 @@ Clean architecture is a software design philosophy that separates the elements o
 ReactorKit is a combination of Flux and Reactive Programming. The user actions and the view states are delivered to each layer via observable streams. These streams are unidirectional: the view can only emit actions and the reactor can only emit states.
 
 <img width="800" alt="스크린샷 2022-12-16 오전 12 32 22" src="https://user-images.githubusercontent.com/47676921/208038465-5e9ac5f3-a71a-473e-9bbe-cb06be984ef2.png">
-
-## GIF
-
-![Simulator Screen Recording - iPhone 14 Pro - 2022-12-16 at 00 40 53](https://user-images.githubusercontent.com/47676921/208039441-31ba659e-1cfd-472f-aa81-84c223c62c17.gif)
 
 ## Test
 
