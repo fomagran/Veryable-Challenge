@@ -357,11 +357,11 @@
 		515EC6B1242E5FBA00B21DBB /* Veryable Sample */ = {
 			isa = PBXGroup;
 			children = (
+				515EC6B2242E5FBA00B21DBB /* AppDelegate.swift */,
 				041E2CBD294C31A200A0D35A /* Common */,
 				041E2CAB294C2F2E00A0D35A /* Presentation */,
 				0425E5C0294C21C300ECDCFD /* Data */,
 				0425E5BA294C1F5D00ECDCFD /* Domain */,
-				515EC6B2242E5FBA00B21DBB /* AppDelegate.swift */,
 				6A948AFC265FF473005A22DA /* VryCustom */,
 				6A948AEA265FF01C005A22DA /* Resources */,
 			);
