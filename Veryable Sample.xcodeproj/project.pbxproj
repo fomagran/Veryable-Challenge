@@ -385,7 +385,6 @@
 			isa = PBXGroup;
 			children = (
 				041E2CB6294C302E00A0D35A /* Reactors */,
-				6A948AE4265FEFCB005A22DA /* AccountListViewController.swift */,
 				6A948AE1265FEFB0005A22DA /* View */,
 			);
 			path = AccountList;
@@ -394,6 +393,7 @@
 		6A948AE1265FEFB0005A22DA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6A948AE4265FEFCB005A22DA /* AccountListViewController.swift */,
 				041E2CBB294C310D00A0D35A /* AccountTableViewCell.swift */,
 				041E2CC1294C32E200A0D35A /* AccountSectionHeaderView.swift */,
 			);
