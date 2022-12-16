@@ -13,6 +13,8 @@ class AccountSectionHeaderView: UIView {
     
     //MARK: - UIs
     
+    var type: String = ""
+    
     lazy var title: UILabel = {
         let label = UILabel()
         label.text = type
