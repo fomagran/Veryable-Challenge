@@ -18,6 +18,7 @@ class AccountListViewController: UIViewController, View {
     
     private let table = UITableView()
     var reactor = AccountListReactor()
+    var detailReactor: AccountDetailReactor?
     var disposeBag = DisposeBag()
     
     //MARK: - UIs
@@ -34,6 +35,16 @@ class AccountListViewController: UIViewController, View {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.configure()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        detailReactor?.state.map { $0.alertType }
+            .compactMap{ $0 }
+            .observe(on: MainScheduler.asyncInstance)
+            .subscribe(onNext: { [weak self] alertType in
+                self?.showAlert(alertType)
+            })
+            .disposed(by: disposeBag)
     }
     
     //MARK: - Set up
@@ -67,6 +78,22 @@ class AccountListViewController: UIViewController, View {
             .asDriver(onErrorJustReturn: "RxError")
             .drive{ [weak self] alertInfo in
                 self?.showAlert(.error,alertInfo)
+            }.disposed(by: disposeBag)
+
+        
+        reactor.state.map { $0.selectedAccount }
+            .distinctUntilChanged()
+            .asDriver(onErrorJustReturn: nil)
+            .drive{ [weak self] selectedAccount in
+                if let selectedAccount = selectedAccount {
+                    self?.detailReactor = AccountDetailReactor(account: selectedAccount)
+                }
+
+                let detailVC = AccountDetailViewController()
+                if let detailReactor = self?.detailReactor {
+                    detailVC.reactor = detailReactor
+                    self?.navigationController?.pushViewController(detailVC, animated: true)
+                }
             }.disposed(by: disposeBag)
     }
     
