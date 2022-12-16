@@ -28,6 +28,8 @@
 		041E2CB4294C2FB400A0D35A /* AlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CB3294C2FB400A0D35A /* AlertType.swift */; };
 		041E2CB8294C303D00A0D35A /* AccountListReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CB7294C303D00A0D35A /* AccountListReactor.swift */; };
 		041E2CBA294C30D800A0D35A /* AccountReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CB9294C30D800A0D35A /* AccountReactor.swift */; };
+		041E2CBC294C310D00A0D35A /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CBB294C310D00A0D35A /* AccountTableViewCell.swift */; };
+		041E2CBF294C31C500A0D35A /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CBE294C31C500A0D35A /* HexColor.swift */; };
 		0425E5B4294C1A8E00ECDCFD /* Veryable_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */; };
 		0425E5BF294C200F00ECDCFD /* AccountRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5BE294C200F00ECDCFD /* AccountRepository.swift */; };
 		0425E5C3294C220300ECDCFD /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5C2294C220300ECDCFD /* AccountService.swift */; };
@@ -35,7 +37,6 @@
 		515EC6B3242E5FBA00B21DBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515EC6B2242E5FBA00B21DBB /* AppDelegate.swift */; };
 		515EC6BC242E5FBC00B21DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515EC6BB242E5FBC00B21DBB /* Assets.xcassets */; };
 		6A948AE5265FEFCB005A22DA /* AccountListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948AE4265FEFCB005A22DA /* AccountListViewController.swift */; };
-		6A948AE7265FEFDB005A22DA /* AccountListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948AE6265FEFDA005A22DA /* AccountListView.swift */; };
 		6A948AEE265FF0E5005A22DA /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948AED265FF0E5005A22DA /* Account.swift */; };
 		6A948AF8265FF403005A22DA /* VColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948AF3265FF403005A22DA /* VColor.swift */; };
 		6A948AFB265FF403005A22DA /* VryPallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A948AF6265FF403005A22DA /* VryPallete.swift */; };
@@ -76,6 +77,8 @@
 		041E2CB3294C2FB400A0D35A /* AlertType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertType.swift; sourceTree = "<group>"; };
 		041E2CB7294C303D00A0D35A /* AccountListReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListReactor.swift; sourceTree = "<group>"; };
 		041E2CB9294C30D800A0D35A /* AccountReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountReactor.swift; sourceTree = "<group>"; };
+		041E2CBB294C310D00A0D35A /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
+		041E2CBE294C31C500A0D35A /* HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
 		0425E5B1294C1A8E00ECDCFD /* Veryable SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veryable SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veryable_SampleTests.swift; sourceTree = "<group>"; };
 		0425E5BE294C200F00ECDCFD /* AccountRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRepository.swift; sourceTree = "<group>"; };
@@ -86,7 +89,6 @@
 		515EC6BB242E5FBC00B21DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		515EC6C3242E5FBC00B21DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A948AE4265FEFCB005A22DA /* AccountListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListViewController.swift; sourceTree = "<group>"; };
-		6A948AE6265FEFDA005A22DA /* AccountListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListView.swift; sourceTree = "<group>"; };
 		6A948AED265FF0E5005A22DA /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		6A948AF3265FF403005A22DA /* VColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VColor.swift; sourceTree = "<group>"; };
 		6A948AF6265FF403005A22DA /* VryPallete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VryPallete.swift; sourceTree = "<group>"; };
@@ -257,6 +259,14 @@
 			path = Reactors;
 			sourceTree = "<group>";
 		};
+		041E2CBD294C31A200A0D35A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				041E2CBE294C31C500A0D35A /* HexColor.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		0425E5B2294C1A8E00ECDCFD /* Veryable SampleTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -347,6 +357,7 @@
 		515EC6B1242E5FBA00B21DBB /* Veryable Sample */ = {
 			isa = PBXGroup;
 			children = (
+				041E2CBD294C31A200A0D35A /* Common */,
 				041E2CAB294C2F2E00A0D35A /* Presentation */,
 				0425E5C0294C21C300ECDCFD /* Data */,
 				0425E5BA294C1F5D00ECDCFD /* Domain */,
@@ -381,7 +392,7 @@
 		6A948AE1265FEFB0005A22DA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				6A948AE6265FEFDA005A22DA /* AccountListView.swift */,
+				041E2CBB294C310D00A0D35A /* AccountTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -615,6 +626,7 @@
 				6A948AF8265FF403005A22DA /* VColor.swift in Sources */,
 				041E2CB2294C2F9600A0D35A /* AccountType.swift in Sources */,
 				515EC6B3242E5FBA00B21DBB /* AppDelegate.swift in Sources */,
+				041E2CBC294C310D00A0D35A /* AccountTableViewCell.swift in Sources */,
 				041E2C7F294C250900A0D35A /* DefaultAccountRequest.swift in Sources */,
 				041E2C81294C256200A0D35A /* DefaultAccountService.swift in Sources */,
 				6A948AE5265FEFCB005A22DA /* AccountListViewController.swift in Sources */,
@@ -628,10 +640,10 @@
 				041E2C8E294C272F00A0D35A /* DefaultAccountRepository.swift in Sources */,
 				0425E5BF294C200F00ECDCFD /* AccountRepository.swift in Sources */,
 				041E2C79294C240A00A0D35A /* Network.swift in Sources */,
+				041E2CBF294C31C500A0D35A /* HexColor.swift in Sources */,
 				6A948B01265FF5CA005A22DA /* ViewColor.swift in Sources */,
 				6A948AEE265FF0E5005A22DA /* Account.swift in Sources */,
 				6A948AFF265FF490005A22DA /* UIFont+Vry.swift in Sources */,
-				6A948AE7265FEFDB005A22DA /* AccountListView.swift in Sources */,
 				6A948AFB265FF403005A22DA /* VryPallete.swift in Sources */,
 				041E2C7B294C247F00A0D35A /* Constants.swift in Sources */,
 				041E2CB8294C303D00A0D35A /* AccountListReactor.swift in Sources */,
