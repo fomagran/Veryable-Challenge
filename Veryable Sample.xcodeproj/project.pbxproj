@@ -24,6 +24,7 @@
 		041E2CAA294C2EB900A0D35A /* AccountList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CA9294C2EB900A0D35A /* AccountList.swift */; };
 		041E2CAE294C2F5000A0D35A /* CellIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CAD294C2F5000A0D35A /* CellIdentifier.swift */; };
 		041E2CB0294C2F7600A0D35A /* ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CAF294C2F7600A0D35A /* ImageName.swift */; };
+		041E2CB2294C2F9600A0D35A /* AccountType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E2CB1294C2F9600A0D35A /* AccountType.swift */; };
 		0425E5B4294C1A8E00ECDCFD /* Veryable_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */; };
 		0425E5BF294C200F00ECDCFD /* AccountRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5BE294C200F00ECDCFD /* AccountRepository.swift */; };
 		0425E5C3294C220300ECDCFD /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E5C2294C220300ECDCFD /* AccountService.swift */; };
@@ -68,6 +69,7 @@
 		041E2CA9294C2EB900A0D35A /* AccountList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountList.swift; sourceTree = "<group>"; };
 		041E2CAD294C2F5000A0D35A /* CellIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellIdentifier.swift; sourceTree = "<group>"; };
 		041E2CAF294C2F7600A0D35A /* ImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageName.swift; sourceTree = "<group>"; };
+		041E2CB1294C2F9600A0D35A /* AccountType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountType.swift; sourceTree = "<group>"; };
 		0425E5B1294C1A8E00ECDCFD /* Veryable SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veryable SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0425E5B3294C1A8E00ECDCFD /* Veryable_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veryable_SampleTests.swift; sourceTree = "<group>"; };
 		0425E5BE294C200F00ECDCFD /* AccountRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRepository.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 			children = (
 				041E2CAD294C2F5000A0D35A /* CellIdentifier.swift */,
 				041E2CAF294C2F7600A0D35A /* ImageName.swift */,
+				041E2CB1294C2F9600A0D35A /* AccountType.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -601,6 +604,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A948AF8265FF403005A22DA /* VColor.swift in Sources */,
+				041E2CB2294C2F9600A0D35A /* AccountType.swift in Sources */,
 				515EC6B3242E5FBA00B21DBB /* AppDelegate.swift in Sources */,
 				041E2C7F294C250900A0D35A /* DefaultAccountRequest.swift in Sources */,
 				041E2C81294C256200A0D35A /* DefaultAccountService.swift in Sources */,
