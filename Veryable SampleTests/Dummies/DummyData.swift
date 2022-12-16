@@ -18,4 +18,14 @@ class DummyData {
        let card3 = Account(id: 3, accountType: "card", accountName: "card3", desc: "desc3")
         return [bank1, bank2,card1,card2,card3]
     }()
+    
+    static let dummyAccountLists: [AccountList] = {
+        let banks = dummyAccounts.filter{ $0.accountType == "bank" }
+        let cards = dummyAccounts.filter{ $0.accountType == "card" }
+        
+        let bankLists = AccountList(accountType: "bank", items: banks)
+        let cardLists = AccountList(accountType: "card", items: cards)
+        
+        return [bankLists,cardLists]
+    }()
 }
